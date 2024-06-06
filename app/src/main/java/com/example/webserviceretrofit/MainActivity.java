@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button searchButton;
 
-    private WebView W = findViewById(R.id.webb);
+    private WebView W ;
 
 
     @Override
@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         resultTextView = findViewById(R.id.resultTextView);
         searchButton = findViewById(R.id.searchButton);
         Button bgit = findViewById(R.id.button);
+        W = findViewById(R.id.webb);
 
 
         bgit.setOnClickListener(new View.OnClickListener() {
